@@ -19,6 +19,5 @@ public:
 	int kolejka;
     int sprzycie();//sprawdza czy zyje Ci jeszcze jakiœ pionek 0-nie ¿yje 1-¿yje
 	void rozmieszczenie();//pocz¹tkowe ustawienie
-	int sprawdzbicie(e_kolor);//0-brak mozliwego bicia 1-mozliwe bicie  
 };
 

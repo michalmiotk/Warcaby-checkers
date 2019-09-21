@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\</FILEPATH>
+      <FILENAME>Gracz.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Zmienna „Gracz::kolor” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6).</DESCRIPTION>
+    <FUNCTION>Gracz::{ctor}</FUNCTION>
+    <DECORATED>??0Gracz@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Gracz::kolor</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\</FILEPATH>
+      <FILENAME>Gracz.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Zmienna „Gracz::kolejka” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6).</DESCRIPTION>
+    <FUNCTION>Gracz::{ctor}</FUNCTION>
+    <DECORATED>??0Gracz@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Gracz::kolejka</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

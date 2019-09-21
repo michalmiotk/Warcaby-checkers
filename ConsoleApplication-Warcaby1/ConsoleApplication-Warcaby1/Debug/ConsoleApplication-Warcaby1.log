@@ -1,27 +1,8 @@
-﻿  Gra.cpp
-c:\users\krystian\documents\visual studio 2015\projects\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(340): warning C4804: '<': unsafe use of type 'bool' in operation
-c:\users\krystian\documents\visual studio 2015\projects\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(343): warning C4804: '<': unsafe use of type 'bool' in operation
-c:\users\krystian\documents\visual studio 2015\projects\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(352): warning C4804: '<': unsafe use of type 'bool' in operation
-c:\users\krystian\documents\visual studio 2015\projects\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(355): warning C4804: '<': unsafe use of type 'bool' in operation
-c:\users\krystian\documents\visual studio 2015\projects\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(364): warning C4804: '<': unsafe use of type 'bool' in operation
-c:\users\krystian\documents\visual studio 2015\projects\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(367): warning C4804: '<': unsafe use of type 'bool' in operation
-c:\users\krystian\documents\visual studio 2015\projects\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(376): warning C4804: '<': unsafe use of type 'bool' in operation
-c:\users\krystian\documents\visual studio 2015\projects\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(379): warning C4804: '<': unsafe use of type 'bool' in operation
-c:\users\krystian\documents\visual studio 2015\projects\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(398): warning C4804: '<': unsafe use of type 'bool' in operation
-c:\users\krystian\documents\visual studio 2015\projects\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(401): warning C4804: '<': unsafe use of type 'bool' in operation
-c:\users\krystian\documents\visual studio 2015\projects\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(410): warning C4804: '<': unsafe use of type 'bool' in operation
-c:\users\krystian\documents\visual studio 2015\projects\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(413): warning C4804: '<': unsafe use of type 'bool' in operation
-c:\users\krystian\documents\visual studio 2015\projects\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(422): warning C4804: '<': unsafe use of type 'bool' in operation
-c:\users\krystian\documents\visual studio 2015\projects\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(425): warning C4804: '<': unsafe use of type 'bool' in operation
-c:\users\krystian\documents\visual studio 2015\projects\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(434): warning C4804: '<': unsafe use of type 'bool' in operation
-c:\users\krystian\documents\visual studio 2015\projects\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(437): warning C4804: '<': unsafe use of type 'bool' in operation
-c:\users\krystian\documents\visual studio 2015\projects\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(461): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\conio.h(452): note: see declaration of 'getch'
-c:\users\krystian\documents\visual studio 2015\projects\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(465): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\conio.h(452): note: see declaration of 'getch'
-c:\users\krystian\documents\visual studio 2015\projects\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(557): warning C4551: function call missing argument list
-c:\users\krystian\documents\visual studio 2015\projects\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(557): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\conio.h(452): note: see declaration of 'getch'
-c:\users\krystian\documents\visual studio 2015\projects\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(249): warning C4715: 'Gra::poprawnoscruchu': not all control paths return a value
-c:\users\krystian\documents\visual studio 2015\projects\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(327): warning C4715: 'Gra::poprawnoscbicia': not all control paths return a value
-  ConsoleApplication-Warcaby1.vcxproj -> C:\Users\Krystian\Documents\Visual Studio 2015\Projects\ConsoleApplication-Warcaby1\Debug\ConsoleApplication-Warcaby1.exe
+﻿  ConsoleApplication-Warcaby1.vcxproj -> C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\Debug\ConsoleApplication-Warcaby1.exe
+C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\Gra.cpp(14): warning C26495: Zmienna „Gra::plansza_pokaz” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6).
+C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\Gra.h(23): warning C26495: Zmienna „ruchy::nowa_x” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6).
+C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\Gra.cpp(985): warning C6262: Liczba bajtów stosu używana przez funkcję („44020”) przekracza wartość /analyze:stacksize „16384”. Rozważ przeniesienie części danych na stertę.
+C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\Gra.cpp(3205): warning C6262: Liczba bajtów stosu używana przez funkcję („90328”) przekracza wartość /analyze:stacksize „16384”. Rozważ przeniesienie części danych na stertę.
+C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\Gra.cpp(3306): warning C6262: Liczba bajtów stosu używana przez funkcję („44544”) przekracza wartość /analyze:stacksize „16384”. Rozważ przeniesienie części danych na stertę.
+C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\Gracz.cpp(4): warning C26495: Zmienna „Gracz::kolor” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6).
+C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\Pionek.cpp(5): warning C26495: Zmienna „Pionek::pozycjay” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6).

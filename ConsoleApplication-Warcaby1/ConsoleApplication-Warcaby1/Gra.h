@@ -32,21 +32,16 @@ public:
 	int plansza_pokaz[8][8][2];
 	int pozycjakontrolerax;
 	int pozycjakontroleray;
-	void aktualizuj_plansza_pokaz();
-	void aktualizuj_plansza_pokaz(Gracz* zolt,Gracz* nieb,int (*plansza_kopia)[8][8][2]);
+	void aktualizuj_plansza_pokaz(Gracz* zolt,Gracz* nieb,int plansza_kopia[8][8][2]);
 	void zmienkolor(e_kolor);
 	void wyswietlplansze();
 	void wyswietlplansze(Gracz* zolt,Gracz* nieb);
-	void aktualizuj_damy();
 	void aktualizuj_damy(Gracz* zolt, Gracz* nieb);
-	int sprpionekkontroler();//0-nie ma pionka 1-pionek zolty(Gracz1) 2-pionek niebieski(Gracz2) 11-zoltadama 22-niebieskadama
 	int sprpionekkontroler(Gracz zolt, Gracz nieb);//0-nie ma pionka 1-pionek zolty(Gracz1) 2-pionek niebieski(Gracz2) 11-zoltadama 22-niebieskadama
-	int poprawnoscruchu(); //0-zly ruch 1-dobry ruch
 	int poprawnoscruchu(Pionek* pionek, int nowe_x, int nowe_y,int plansza_kopia[8][8][2]);
 	int poprawnoscbicia(); //0-zle bicie 1-dobrebicie
 	int poprawnoscbicia(Pionek* pionek,Gracz zolt,Gracz nieb,int nowe_x,int nowe_y); //0-zle bicie 1-dobrebicie
 	int wolne_pole(int x, int y,int plansza_kopia[8][8][2]);
-	void sprdamka(); //sprawdza czy pionek nie powinien siê zmieniæ w damkê, jeœli tak to go zmienia
 	int sprbicie(e_kolor);//0-brak mozliwego bicia 1-mozliwe bicie //podaj kolor dla sprawdzanego gracza
 	int sprbicie(e_kolor, Gracz zolt ,Gracz nieb);//0-brak mozliwego bicia 1-mozliwe bicie //podaj kolor dla sprawdzanego gracza
 	int zaznaczbicie(e_kolor, Gracz* zolt ,Gracz* nieb,int (*plansza_kopia)[8][8][2],ruchy (*tabela_ruchy)[1000]);
@@ -62,7 +57,6 @@ public:
 	int mozliwosc_ruchu(e_kolor kolor, Gracz* zolt, Gracz* nieb);
 	int  wykonaj_ruchy_rekurencja(ruchy* dobry_ruch,e_kolor kolor,int ile_iter,Gracz zolt, Gracz nieb,int pierwsze_wywolanie);
 	int  wykonaj_najlepszy_ruch(ruchy* dobry_ruch,Gracz* zolt, Gracz* nieb);
-	int  wykonaj_ruch(Gracz zolt, Gracz nieb,ruchy ruch,int* licznik,ruchy (*tabela)[1000]);
 	int  oblicz_wartosc_planszy_kris(e_kolor kolor,Gracz zolt, Gracz nieb, int plansza[8][8][2]);
 	void kontynuj_bicie(ruchy tabela_ruchy[1000],Gracz* zolt, Gracz *nieb);
 	void inicjuj_struktura_ruchy(ruchy* struktura);

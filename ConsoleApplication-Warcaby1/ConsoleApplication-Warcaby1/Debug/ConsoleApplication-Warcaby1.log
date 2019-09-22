@@ -1,8 +1,101 @@
-﻿  ConsoleApplication-Warcaby1.vcxproj -> C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\Debug\ConsoleApplication-Warcaby1.exe
-C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\Gra.cpp(14): warning C26495: Zmienna „Gra::plansza_pokaz” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6).
-C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\Gra.h(23): warning C26495: Zmienna „ruchy::nowa_x” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6).
-C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\Gra.cpp(985): warning C6262: Liczba bajtów stosu używana przez funkcję („44020”) przekracza wartość /analyze:stacksize „16384”. Rozważ przeniesienie części danych na stertę.
-C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\Gra.cpp(3205): warning C6262: Liczba bajtów stosu używana przez funkcję („90328”) przekracza wartość /analyze:stacksize „16384”. Rozważ przeniesienie części danych na stertę.
-C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\Gra.cpp(3306): warning C6262: Liczba bajtów stosu używana przez funkcję („44544”) przekracza wartość /analyze:stacksize „16384”. Rozważ przeniesienie części danych na stertę.
-C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\Gracz.cpp(4): warning C26495: Zmienna „Gracz::kolor” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6).
-C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\Pionek.cpp(5): warning C26495: Zmienna „Pionek::pozycjay” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6).
+﻿  Gra.cpp
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(562): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(566): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(578): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(582): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(594): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(598): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(609): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(613): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(716): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(720): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(732): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(735): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(746): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(749): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(760): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(763): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(860): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\conio.h(452): note: see declaration of 'getch'
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(864): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\conio.h(452): note: see declaration of 'getch'
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1265): warning C4551: function call missing argument list
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1265): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\conio.h(452): note: see declaration of 'getch'
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1401): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1405): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1417): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1421): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1433): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1437): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1449): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1453): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1556): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1560): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1572): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1575): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1586): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1589): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1600): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1603): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1712): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1716): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1728): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1732): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1744): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1748): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1760): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1764): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1861): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1865): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1877): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1880): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1891): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1894): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1905): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1908): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2527): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2531): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2543): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2547): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2559): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2563): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2574): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2578): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2686): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2690): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2702): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2705): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2716): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2719): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2730): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2733): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2850): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2854): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2869): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2873): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2888): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2892): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2907): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2911): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(3026): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(3030): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(3042): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(3045): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(3056): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(3059): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(3070): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(3073): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(550): warning C4715: 'Gra::poprawnoscruchu': not all control paths return a value
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(854): warning C4715: 'Gra::sprbicie': not all control paths return a value
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1996): warning C4715: 'Gra::sprbicie_pionka': not all control paths return a value
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(1694): warning C4715: 'Gra::sprbicie': not all control paths return a value
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2246): warning C4715: 'Gra::poprawnoscbicia': not all control paths return a value
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2505): warning C4715: 'Gra::poprawnoscbicia': not all control paths return a value
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(2829): warning C4715: 'Gra::zaznaczbicie': not all control paths return a value
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(3169): warning C4715: 'Gra::zaznaczbicie_pionka': not all control paths return a value
+  ConsoleApplication-Warcaby1.vcxproj -> C:\Users\Michał\Desktop\Warcaby-checkers\ConsoleApplication-Warcaby1\Debug\ConsoleApplication-Warcaby1.exe
+  ConsoleApplication-Warcaby1.vcxproj -> C:\Users\Michał\Desktop\Warcaby-checkers\ConsoleApplication-Warcaby1\Debug\ConsoleApplication-Warcaby1.pdb (Full PDB)
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(972): warning C6262: Function uses '44020' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(3180): warning C6262: Function uses '90328' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.
+c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\gra.cpp(3281): warning C6262: Function uses '44544' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.

@@ -1,7 +1,7 @@
 ﻿#include "Gra.h"
-#define ascizolty 177
-#define asciniebieski 177
-#define glebokosc 6
+#define ascizolty 254
+#define asciniebieski 254
+#define glebokosc 5
 #define waga_dama 10000
 #define waga_bicie 0
 #define chodzenie_grupa 1
@@ -81,8 +81,8 @@ void Gra::zmienkolor(e_kolor k1)
 
 void Gra::wyswietlplansze()
 {
-	int ascii_dama_niebieski=30;
-	int ascii_dama_zolty=31;
+	int ascii_dama_niebieski=239;
+	int ascii_dama_zolty=207;
 	for (int j = 0; j < 8; j++) {
 		for (int i = 0; i < 8; i++) {
 			int s = 0;
@@ -896,7 +896,6 @@ void Gra::zmienpozycjekontrolera()
 			}
   			if (kontroler == 1) {
 				aktualizuj_plansza_pokaz(&G[0], &G[1], plansza_pokaz);
-				if(mozliwosc_ruchu(niebieski,&G[0], &G[1])==0){cout<<"czerwoni wygrali - przegrales"<<endl; while(1);}
 				if ((wsk->kolor==zolty && sprbicie(wsk->kolor) == 1) ||(wsk->kolor==niebieski && sprbicie(wsk->kolor) == 2) ) {
 	 					if(poprawnoscbicia() == 1 && sprpionekkontroler(this->G[0], this->G[1])==0) {
 							usunpionek();
@@ -908,25 +907,14 @@ void Gra::zmienpozycjekontrolera()
 							wyswietlplansze();
 							if (sprbicie_pionka(*wsk_pomocniczy,G[0],G[1])==0) //jesli mój pionek którym wykonałem bicie nie może już bić to ruch komputera 
 							{
-								int x=0;
-								x=wykonaj_ruchy_rekurencja(&najlepszy_ruch,zolty,glebokosc,G[0], G[1],1);
-								system("cls");
-								if(x!=-1234567){
+								if(wykonaj_ruchy_rekurencja(&najlepszy_ruch, zolty, glebokosc, G[0], G[1], 1) !=-1234567){
 										wykonaj_najlepszy_ruch(&najlepszy_ruch,&G[0],&G[1]);
 										system("cls");
 								}
 								else
 								{
-									if(wsk->kolor==niebieski){
-										wyswietlplansze();
-										cout<<"niebieski"<<"wygral!!!"<<endl;
+										cout<<"niebieski wygrał!!!"<<endl;
 										while(1);
-									}
-									if(wsk->kolor==zolty){
-										wyswietlplansze();
-										cout<<"zolty"<<"wygral!!!"<<endl;
-										while(1);
-									}
 								}
 								wyswietlplansze();
 							}
@@ -939,34 +927,33 @@ void Gra::zmienpozycjekontrolera()
 						}
 						
 				}
-				int popr_ruchu = poprawnoscruchu(wsk, pozycjakontrolerax, pozycjakontroleray, plansza_pokaz);
-				int spr = sprpionekkontroler(this->G[0], this->G[1]);
-				int bicie = sprbicie(wsk->kolor);
-				if (popr_ruchu == 1  && spr == 0 && bicie ==0) {
+				if (poprawnoscruchu(wsk, pozycjakontrolerax, pozycjakontroleray, plansza_pokaz) == 1  && sprpionekkontroler(this->G[0], this->G[1]) == 0 && sprbicie(wsk->kolor) ==0) {
 					upuscpionek();
-					system("cls");
+					
 					aktualizuj_damy(&G[0], &G[1]);
 					aktualizuj_plansza_pokaz(&G[0], &G[1], plansza_pokaz);
-					//jesli wykonałem ruch to teraz
-					sprbicie_pionka(*wsk, G[0],G[1]);
 					system("cls");
+					wyswietlplansze();
+					sprbicie_pionka(*wsk, G[0],G[1]);
+					//system("cls");
 					int x=wykonaj_ruchy_rekurencja(&najlepszy_ruch,zolty,glebokosc,G[0], G[1],1);
 					if(x!=-1234567){
 						wykonaj_najlepszy_ruch(&najlepszy_ruch,&G[0],&G[1]);
 						cout<<endl;
 						system("cls");
 						wyswietlplansze();
+						if (mozliwosc_ruchu(niebieski, &G[0], &G[1]) == 0) { cout << "czerwony wygrał" << endl; while (1); }
 					}
 					else
 					{
 						if(wsk->kolor==niebieski){
 								wyswietlplansze();
-								cout<<"niebieski"<<"wygral!!!"<<endl;
+								cout<<"niebieski wygrał!!!"<<endl;
 								while(1);
 						}
 						if(wsk->kolor==zolty){
 								wyswietlplansze();
-								cout<<"zolty"<<"wygral!!!"<<endl;
+								cout<<"żółty wygrał!!!"<<endl;
 								while(1);
 						}
 					}
@@ -989,13 +976,7 @@ int Gra::mozliwosc_ruchu(e_kolor kolor, Gracz* zolt, Gracz* nieb){
 	return a;
 }
 int Gra::zgromadz_ruchy(e_kolor kolor, Gracz* zolt, Gracz* nieb,ruchy (*tabela)[1000]){
-	int plansza_kopia[8][8][2];
-	for(int x=0;x<8;x++){
-		for(int y=0;y<8;y++){
-			plansza_kopia[x][y][0]=0;
-			plansza_kopia[x][y][1]=0;
-		}
-	}
+	int plansza_kopia[8][8][2] = {};
 	aktualizuj_plansza_pokaz(zolt,nieb, plansza_kopia);
 	int licznik=0;
 	if(sprbicie(kolor, *zolt ,*nieb)==1 ||sprbicie(kolor, *zolt ,*nieb)==2){
@@ -1720,13 +1701,7 @@ int Gra::wolne_pole(int x, int y,int plansza_kopia[8][8][2]){
 }
 int Gra::sprbicie_pionka(Pionek pionek, Gracz zolt ,Gracz nieb)//zwraca 1 jesli bicie G[0] , 2 jesli bicie G[1] , 0 jesli nie ma bicia
 {
-	int plansza_kopia[8][8][2];
-		for(int x=0;x<8;x++){
-			for(int y=0;y<8;y++){
-				plansza_kopia[x][y][0]=0;
-				plansza_kopia[x][y][1]=0;
-			}
-	}
+	int plansza_kopia[8][8][2] = {};
 	aktualizuj_plansza_pokaz(&zolt,&nieb,plansza_kopia);
 	if (pionek.kolor == zolty){ //dla pionkow
 			for (int m = 0; m < 12; m++) {
@@ -3253,7 +3228,7 @@ int Gra::wykonaj_ruchy_rekurencja(ruchy* dobry_ruch,e_kolor kolor,int ile_iter,G
 							bedzie_bicie=0;
 			}
 			ilosc_kombinacji++;
-			if(ilosc_kombinacji>0 && ilosc_kombinacji%10000==0) cout<<ilosc_kombinacji/10000<<endl;
+			if(ilosc_kombinacji>0 && ilosc_kombinacji%10000==0) cout<<"* ";
 			e_kolor nowy_kolor;
 			if(kolor==niebieski)nowy_kolor=zolty;
 			else nowy_kolor=niebieski;

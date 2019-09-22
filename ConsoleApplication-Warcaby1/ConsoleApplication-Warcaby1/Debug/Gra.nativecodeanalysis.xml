@@ -2,163 +2,44 @@
 <DEFECTS>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\</FILEPATH>
-      <FILENAME>Gra.cpp</FILENAME>
-      <LINE>14</LINE>
-      <COLUMN>5</COLUMN>
-    </SFA>
-    <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Zmienna „Gra::plansza_pokaz” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6).</DESCRIPTION>
-    <FUNCTION>Gra::{ctor}</FUNCTION>
-    <DECORATED>??0Gra@@QAE@XZ</DECORATED>
-    <FUNCLINE>14</FUNCLINE>
-    <ADDITIONALINFO>
-      <targetSymbol>Gra::plansza_pokaz</targetSymbol>
-    </ADDITIONALINFO>
-    <PATH></PATH>
-  </DEFECT>
-  <DEFECT>
-    <SFA>
-      <FILEPATH>C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\</FILEPATH>
-      <FILENAME>Gra.cpp</FILENAME>
-      <LINE>14</LINE>
-      <COLUMN>5</COLUMN>
-    </SFA>
-    <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Zmienna „Gra::wsk_pomocniczy” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6).</DESCRIPTION>
-    <FUNCTION>Gra::{ctor}</FUNCTION>
-    <DECORATED>??0Gra@@QAE@XZ</DECORATED>
-    <FUNCLINE>14</FUNCLINE>
-    <ADDITIONALINFO>
-      <targetSymbol>Gra::wsk_pomocniczy</targetSymbol>
-    </ADDITIONALINFO>
-    <PATH></PATH>
-  </DEFECT>
-  <DEFECT>
-    <SFA>
-      <FILEPATH>C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\</FILEPATH>
-      <FILENAME>Gra.h</FILENAME>
-      <LINE>23</LINE>
-      <COLUMN>0</COLUMN>
-    </SFA>
-    <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Zmienna „ruchy::nowa_x” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6).</DESCRIPTION>
-    <FUNCTION>ruchy::{ctor}</FUNCTION>
-    <DECORATED>??0ruchy@@QAE@XZ</DECORATED>
-    <FUNCLINE>23</FUNCLINE>
-    <ADDITIONALINFO>
-      <targetSymbol>ruchy::nowa_x</targetSymbol>
-    </ADDITIONALINFO>
-    <PATH></PATH>
-  </DEFECT>
-  <DEFECT>
-    <SFA>
-      <FILEPATH>C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\</FILEPATH>
-      <FILENAME>Gra.h</FILENAME>
-      <LINE>23</LINE>
-      <COLUMN>0</COLUMN>
-    </SFA>
-    <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Zmienna „ruchy::wskaznik_pionek” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6).</DESCRIPTION>
-    <FUNCTION>ruchy::{ctor}</FUNCTION>
-    <DECORATED>??0ruchy@@QAE@XZ</DECORATED>
-    <FUNCLINE>23</FUNCLINE>
-    <ADDITIONALINFO>
-      <targetSymbol>ruchy::wskaznik_pionek</targetSymbol>
-    </ADDITIONALINFO>
-    <PATH></PATH>
-  </DEFECT>
-  <DEFECT>
-    <SFA>
-      <FILEPATH>C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\</FILEPATH>
-      <FILENAME>Gra.h</FILENAME>
-      <LINE>23</LINE>
-      <COLUMN>0</COLUMN>
-    </SFA>
-    <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Zmienna „ruchy::nowa_y” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6).</DESCRIPTION>
-    <FUNCTION>ruchy::{ctor}</FUNCTION>
-    <DECORATED>??0ruchy@@QAE@XZ</DECORATED>
-    <FUNCLINE>23</FUNCLINE>
-    <ADDITIONALINFO>
-      <targetSymbol>ruchy::nowa_y</targetSymbol>
-    </ADDITIONALINFO>
-    <PATH></PATH>
-  </DEFECT>
-  <DEFECT>
-    <SFA>
-      <FILEPATH>C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\</FILEPATH>
-      <FILENAME>Gra.h</FILENAME>
-      <LINE>23</LINE>
-      <COLUMN>0</COLUMN>
-    </SFA>
-    <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Zmienna „ruchy::bicie” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6).</DESCRIPTION>
-    <FUNCTION>ruchy::{ctor}</FUNCTION>
-    <DECORATED>??0ruchy@@QAE@XZ</DECORATED>
-    <FUNCLINE>23</FUNCLINE>
-    <ADDITIONALINFO>
-      <targetSymbol>ruchy::bicie</targetSymbol>
-    </ADDITIONALINFO>
-    <PATH></PATH>
-  </DEFECT>
-  <DEFECT>
-    <SFA>
-      <FILEPATH>C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\</FILEPATH>
-      <FILENAME>Gra.h</FILENAME>
-      <LINE>23</LINE>
-      <COLUMN>0</COLUMN>
-    </SFA>
-    <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Zmienna „ruchy::wartosc_planszy” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6).</DESCRIPTION>
-    <FUNCTION>ruchy::{ctor}</FUNCTION>
-    <DECORATED>??0ruchy@@QAE@XZ</DECORATED>
-    <FUNCLINE>23</FUNCLINE>
-    <ADDITIONALINFO>
-      <targetSymbol>ruchy::wartosc_planszy</targetSymbol>
-    </ADDITIONALINFO>
-    <PATH></PATH>
-  </DEFECT>
-  <DEFECT>
-    <SFA>
-      <FILEPATH>C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\</FILEPATH>
-      <FILENAME>Gra.cpp</FILENAME>
-      <LINE>985</LINE>
-      <COLUMN>9</COLUMN>
+      <FILEPATH>c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\</FILEPATH>
+      <FILENAME>gra.cpp</FILENAME>
+      <LINE>972</LINE>
+      <COLUMN>24</COLUMN>
     </SFA>
     <DEFECTCODE>6262</DEFECTCODE>
-    <DESCRIPTION>Liczba bajtów stosu używana przez funkcję („44020”) przekracza wartość /analyze:stacksize „16384”. Rozważ przeniesienie części danych na stertę.</DESCRIPTION>
+    <DESCRIPTION>Function uses '44020' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
     <FUNCTION>Gra::mozliwosc_ruchu</FUNCTION>
     <DECORATED>?mozliwosc_ruchu@Gra@@QAEHW4e_kolor@@PAVGracz@@1@Z</DECORATED>
-    <FUNCLINE>985</FUNCLINE>
+    <FUNCLINE>972</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\</FILEPATH>
-      <FILENAME>Gra.cpp</FILENAME>
-      <LINE>3205</LINE>
-      <COLUMN>9</COLUMN>
+      <FILEPATH>c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\</FILEPATH>
+      <FILENAME>gra.cpp</FILENAME>
+      <LINE>3180</LINE>
+      <COLUMN>33</COLUMN>
     </SFA>
     <DEFECTCODE>6262</DEFECTCODE>
-    <DESCRIPTION>Liczba bajtów stosu używana przez funkcję („90328”) przekracza wartość /analyze:stacksize „16384”. Rozważ przeniesienie części danych na stertę.</DESCRIPTION>
+    <DESCRIPTION>Function uses '90328' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
     <FUNCTION>Gra::wykonaj_ruchy_rekurencja</FUNCTION>
     <DECORATED>?wykonaj_ruchy_rekurencja@Gra@@QAEHPAUruchy@@W4e_kolor@@HVGracz@@2H@Z</DECORATED>
-    <FUNCLINE>3205</FUNCLINE>
+    <FUNCLINE>3180</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\miki\source\repos\robosyn\Warcaby-checkers\ConsoleApplication-Warcaby1\ConsoleApplication-Warcaby1\</FILEPATH>
-      <FILENAME>Gra.cpp</FILENAME>
-      <LINE>3306</LINE>
-      <COLUMN>9</COLUMN>
+      <FILEPATH>c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\consoleapplication-warcaby1\</FILEPATH>
+      <FILENAME>gra.cpp</FILENAME>
+      <LINE>3281</LINE>
+      <COLUMN>31</COLUMN>
     </SFA>
     <DEFECTCODE>6262</DEFECTCODE>
-    <DESCRIPTION>Liczba bajtów stosu używana przez funkcję („44544”) przekracza wartość /analyze:stacksize „16384”. Rozważ przeniesienie części danych na stertę.</DESCRIPTION>
+    <DESCRIPTION>Function uses '44544' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
     <FUNCTION>Gra::wykonaj_najlepszy_ruch</FUNCTION>
     <DECORATED>?wykonaj_najlepszy_ruch@Gra@@QAEHPAUruchy@@PAVGracz@@1@Z</DECORATED>
-    <FUNCLINE>3306</FUNCLINE>
+    <FUNCLINE>3281</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
 </DEFECTS>

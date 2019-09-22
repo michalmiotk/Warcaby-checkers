@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\</FILEPATH>
+      <FILENAME>gra.cpp</FILENAME>
+      <LINE>972</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '44020' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>Gra::mozliwosc_ruchu</FUNCTION>
+    <DECORATED>?mozliwosc_ruchu@Gra@@QAEHW4e_kolor@@PAVGracz@@1@Z</DECORATED>
+    <FUNCLINE>972</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\</FILEPATH>
+      <FILENAME>gra.cpp</FILENAME>
+      <LINE>3180</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '90328' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>Gra::wykonaj_ruchy_rekurencja</FUNCTION>
+    <DECORATED>?wykonaj_ruchy_rekurencja@Gra@@QAEHPAUruchy@@W4e_kolor@@HVGracz@@2H@Z</DECORATED>
+    <FUNCLINE>3180</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\michał\desktop\warcaby-checkers\consoleapplication-warcaby1\</FILEPATH>
+      <FILENAME>gra.cpp</FILENAME>
+      <LINE>3281</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '44544' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>Gra::wykonaj_najlepszy_ruch</FUNCTION>
+    <DECORATED>?wykonaj_najlepszy_ruch@Gra@@QAEHPAUruchy@@PAVGracz@@1@Z</DECORATED>
+    <FUNCLINE>3281</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
